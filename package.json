@@ -1,0 +1,20 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cypress:open": "cypress open",
+    "singletest": "cypress run --spec 'tests/FOLDERNAME/EXAMPLE.spec.js'",
+    "multitest": "cypress run --spec 'tests/gear4music/*.spec.js' --parallel --record",
+    "dt3": "CYPRESS_BASE_URL=https://com.dt3.g4mtest.com/ cypress run --spec 'tests/gear4music/desktop_search_tests.spec.js'"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.1.4"
+  }
+}

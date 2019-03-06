@@ -1,0 +1,19 @@
+{
+  "baseUrl": "https://gear4music.com",
+  "fixturesFolder": false,
+  "integrationFolder": "tests/gear4music/",
+  "pluginsFile": false,
+  "port": 4444,
+  "reporter": "spec",
+  "requestTimeout": 5000,
+  "responseTimeout": 30000,
+  "screenshotsFolder": "screenshots",
+  "supportFile": false,
+  "trashAssetsBeforeRuns": true,
+  "video": true,
+  "videoCompression": 32,
+  "videoUploadOnPasses": true,
+  "videosFolder": "videos",
+  "watchForFileChanges": true,
+  "projectId": "ihew2x"
+}
